@@ -11,19 +11,16 @@
 .html {
   font-size: 62.5%;
 }
-
 body {
   font-family: "Poppins", sans-serif;
 }
 
 /* ///////////..utility classes../////////// */
-
 .container {
   max-width: 1200px;
   width: 90%;
   margin: auto;
 }
-
 .btn {
   display: inline-block;
   padding: 0.5em 1.5em;
@@ -35,74 +32,66 @@ body {
   text-transform: uppercase;
   font-weight: small;
 }
-
 .btn-primary {
   color: #fff;
   background: #16a083;
 }
-
 .btn-primary:hover {
   background: #117964;
   transition: background 0.3s ease-in-out;
 }
 
 /* ............/navbar/............ *
-
 /* desktop mode............/// */
-
 .navbar input[type="checkbox"],
 .navbar .hamburger-lines {
   display: none;
 }
-
 .navbar {
   box-shadow: 0px 5px 10px 0px #aaa;
   position: fixed;
-  width: 100%;
-  /* background: #fff; */
-  background-color: #00BAF0;
+  width: 90%;
+  max-width: 1200px;
+  border-radius: 6px;
+  color: #202020;
+  /* background: #fff;
+  background-color: #00BAF0; */
   background: linear-gradient(to left, #f46b45, #eea849);
-  color: #000;
-  opacity: 0.85;
-  height: 50px;
+  opacity: 0.65;
+  height: 64px;
+  margin-top: 20px;
   z-index: 12;
 }
-
 .navbar-container {
   display: flex;
   justify-content: space-between;
   height: 64px;
   align-items: center;
 }
-
 .menu-items {
   order: 2;
   display: flex;
 }
-
 .menu-items li {
   list-style: none;
   margin-left: 1.5rem;
   margin-bottom: 0.5rem;
   font-size: 1.2rem;
 }
-
 [dir("rtl")].menu-items li {
   margin-right: 1.5rem;
 }
-
 .menu-items a {
   text-decoration: none;
   color: #444;
   font-weight: 500;
   transition: color 0.3s ease-in-out;
 }
-
 .menu-items a:hover {
-  color: #117964;
+  color: #d0d0d0;
+  background-color: #2334b7;
   transition: color 0.3s ease-in-out;
 }
-
 .logo {
   order: 1;
   font-size: 2.3rem;
@@ -110,14 +99,13 @@ body {
 }
 
 /* ............//// Showcase styling ////......... */
-
 .showcase-area {
   height: 50vh;
   background: linear-gradient(
-      rgba(240, 240, 240, 0.144),
+      rgba(220, 220, 220, 0.144),
       rgba(255, 255, 255, 0.336)
     ),
-    url("https://i.postimg.cc/wT3TQS3V/header-image2.jpg");
+    url("img/electric-snail-new-york-1280x976.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
